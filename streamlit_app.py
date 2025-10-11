@@ -86,6 +86,19 @@ def main():
         options=['All', 'Urban', 'Rural'],
         index=0
     )
+    # --- Sidebar Personal Information ---
+    st.sidebar.title("👤 Consultant Information")
+    st.sidebar.markdown("""
+    **Name:** Geredi Niyibigira  
+    **Role:** AI Consultant – Malaria Eradication Project  
+    **Organization:** [Kigali Collaborative Research Centre (KCRC)](https://kcrc.africa)  
+    **Focus Areas:**  
+    - AI for aerial imagery analysis  
+    - Data-driven mosquito habitat detection  
+    - Ground-truth integration & GIS collaboration  
+    **Email:** geredi.niyibigira@gmail.com  
+    """)
+
     
     # Apply filters
     filtered_df = df[df['province'].isin(selected_provinces)]
