@@ -91,11 +91,7 @@ def main():
     st.sidebar.markdown("""
     **Name:** Geredi Niyibigira  
     **Role:** AI Consultant – Malaria Eradication Project  
-    **Organization:** [Charis Unmanned Aerial Solution (UAS)](https://charisuas.com/)  
-    # **Focus Areas:**  
-    # - AI for aerial imagery analysis  
-    # - Data-driven mosquito habitat detection  
-    # - Ground-truth integration & GIS collaboration  
+    **Organization:** [Charis Unmanned Aerial Solution (UAS)](https://charisuas.com/)   
     **Email:** niygeredi@gmail.com | geredi.niyibigira@charisuas.com
     """)
 
