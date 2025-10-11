@@ -87,16 +87,16 @@ def main():
         index=0
     )
     # --- Sidebar Personal Information ---
-    st.sidebar.title("👤 Consultant Information")
+    st.sidebar.title("Developer Information")
     st.sidebar.markdown("""
     **Name:** Geredi Niyibigira  
     **Role:** AI Consultant – Malaria Eradication Project  
-    **Organization:** [Kigali Collaborative Research Centre (KCRC)](https://kcrc.africa)  
-    **Focus Areas:**  
-    - AI for aerial imagery analysis  
-    - Data-driven mosquito habitat detection  
-    - Ground-truth integration & GIS collaboration  
-    **Email:** geredi.niyibigira@gmail.com  
+    **Organization:** [Charis Unmanned Aerial Solution (UAS)](https://charisuas.com/)  
+    # **Focus Areas:**  
+    # - AI for aerial imagery analysis  
+    # - Data-driven mosquito habitat detection  
+    # - Ground-truth integration & GIS collaboration  
+    **Email:** niygeredi@gmail.com | geredi.niyibigira@charisuas.com
     """)
 
     
